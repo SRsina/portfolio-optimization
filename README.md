@@ -18,9 +18,10 @@ The goal is to find an **optimal asset allocation** that minimizes **portfolio r
 ## Methodology
 We solve the **mean-variance optimization problem** using:
 
-\[
+$$
 \text{Cost} = \frac{1}{2} w^T \Sigma w + \lambda (m_\beta - w^T \mu)
-\]
+$$
+
 
 Where:
 - \( w \) = Portfolio weights
